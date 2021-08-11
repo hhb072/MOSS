@@ -1,8 +1,8 @@
 pretrained: 'ddn_ssir.pth'
 
 test_real: true
-testroot: YOUROWNPATH
-save_image_path: 'test'
+testroot: ‘data/real/input’
+save_image_path: 'data/real/output'
 
 ngf: 16
 num_blocks: 5
