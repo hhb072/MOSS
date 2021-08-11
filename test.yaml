@@ -1,8 +1,8 @@
 pretrained: 'ddn_ssir.pth'
 
 test_real: true
-# testroot:  '/home/huaibo.huang/data/rain/ssir/ssir_test'
-testroot: '/data1/huaibo.huang/data/rain/real210'
+testroot: YOUROWNPATH
+save_image_path: 'test'
 
 ngf: 16
 num_blocks: 5
@@ -10,11 +10,10 @@ num_scales: 3
 num_layers: 4
 delta: 16
 kdim: 512
-
 moving_average_rate: 0.999
 moving_average_decay: 0.999
 
-save_image_path: 'test'
+
 
 
 
