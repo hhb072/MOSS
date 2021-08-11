@@ -16,14 +16,9 @@ Download them into the root folder before testing.
 
 ## Run
 
-Test MOSS:
-
 	 CUDA_VISIBLE_DEVICES=0 python test.py --config_file='test.yaml'
 
-Adjust the parameters according to your own settings.
-
-Train MOSS:
-
+Adjust the parameters in 'test.yaml' according to your own settings.
 The training code will be released later.
 
 ## Citation
