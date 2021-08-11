@@ -12,8 +12,6 @@ We provide the model trained on DDN-SIRR dataset in the following links:
 * [Google Driver](https://drive.google.com/drive/folders/1Ob4ATRd5bKtGLEzPhL84saY3tUW33Lu4?usp=sharing) 
 * [Jianguo Yun](https://www.jianguoyun.com/p/Deq2B2gQiaCuBxjy9IUE)
 
-Download them into the root folder before testing. 
-
 ## Run
 
 	 CUDA_VISIBLE_DEVICES=0 python test.py --config_file='test.yaml'
