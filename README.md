@@ -22,6 +22,10 @@ Test MOSS:
 
 Adjust the parameters according to your own settings.
 
+Train MOSS:
+
+The training code will be released later.
+
 ## Citation
 
 If you use our codes, please cite the following paper:
