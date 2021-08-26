@@ -1,4 +1,4 @@
-pretrained: 'ddn_ssir.pth'
+pretrained: 'model/ddn_ssir.pth'
 
 test_real: true
 testroot: 'data/real/input'
