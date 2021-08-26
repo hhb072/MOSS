@@ -1,7 +1,7 @@
 pretrained: 'ddn_ssir.pth'
 
 test_real: true
-testroot: ‘data/real/input’
+testroot: 'data/real/input'
 save_image_path: 'data/real/output'
 
 ngf: 16
