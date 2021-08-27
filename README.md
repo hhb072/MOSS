@@ -23,7 +23,7 @@ The training code will be released later.
 
 If you use our codes, please cite the following paper:
 
-	 @article{huang2021memory,
+	 @inproceedings{huang2021memory,
 	   title={Memory Oriented Transfer Learning for Semi-Supervised Image Deraining},
 	   author={Huang, Huaibo and Yu, Aijing and He, Ran},
 	   booktitle={IEEE/CVF Conference on Computer Vision and Pattern Recognition},
