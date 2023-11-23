@@ -1,0 +1,61 @@
+
+pretrained:  null
+
+pretrain_epochs: 500
+
+syn_files: 'ssir_train.list'
+real_files: 'real_train.list'
+testfiles: 'ssir_test.list'
+syn_trainroot: '/home/YOURPATH/data/rain/ddn/ddn_train'
+real_trainroot: '/home/YOURPATH/data/rain/ssir/real_input'
+testroot:  '/home/YOURPATH/data/rain/ssir/ssir_test' 
+
+
+weight_pixel: 10.0
+weight_real: 1
+weight_pseudo: 1.0
+weight_tv: 0.001
+weight_adv: 0.01
+
+with_noise: true
+
+learning_rate_g: 0.0002
+learning_rate_d: 0.00001
+
+moving_average_rate: 0.999
+moving_average_decay: 0.999
+update_moving_iter: 500
+
+ngf: 32
+delta: 16
+num_layers: 20
+change_channel_layers: '0,4,8,12'
+resize_layers: '0,4,8'
+kdim: 512
+max_T: 1.0
+min_T: 0.03
+decay_alpha: 0.99998
+ndf: 32
+
+output_size: 256
+test_output_size: null
+
+batchsize: 32
+test_batchsize: 1
+data_augment: 5
+
+save_iter: 500
+test_iter: 500
+
+total_epochs: 500
+iters_per_epoch: 500
+
+align_scale: 4
+
+workers: 32
+
+save_image_path: 'results'
+
+
+
+
