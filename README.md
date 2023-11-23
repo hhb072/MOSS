@@ -17,7 +17,7 @@ We provide the model trained on DDN-SIRR dataset in the following links:
 	 CUDA_VISIBLE_DEVICES=0 python test.py --config_file='test.yaml'
 
 Adjust the parameters in 'test.yaml' according to your own settings.
-The training code will be released later.
+Please goto the 'train' folder for the training code.
 
 ## Citation
 
